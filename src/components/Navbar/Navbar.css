@@ -1,0 +1,149 @@
+.nav{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 80%;
+    z-index: 2;
+    background-color: white;
+    
+}
+
+.nav .logo{
+    width: 150px;
+
+}
+
+
+
+.nav-menu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    color: #49557e;
+    font-size: 18px;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-right img{
+    cursor: pointer;
+}
+
+.nav-right button{
+    cursor: pointer;
+    background: transparent;
+    font-size: 16px;
+    color: #49557e;
+    border: 1px solid tomato;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: .3s;
+
+}
+
+.nav-right button:hover{
+    background-color: #fff4f2;
+
+}
+
+.nav .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e ;
+}
+
+.nav-menu li{
+    cursor: pointer;
+}
+
+.cartpic-dot{
+    position: relative;
+    cursor: pointer;
+}
+
+.dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    top: -8px;
+    right: -8px;
+}
+
+@media (max-width:1050px){
+    .nav .logo{
+        width: 140px;
+    
+    }
+
+    .nav-menu{
+        gap: 20px;
+        font-size: 17px;
+    }
+
+    .nav-right{
+        gap: 30px;
+    }
+
+    .nav-right img{
+        width: 22px;
+    }
+
+    .nav-right button{
+       padding: 8px 25px;
+
+    
+    }
+
+}
+
+
+@media (max-width:900px){
+    .nav .logo{
+        width: 100px;
+    
+    }
+
+    .nav-menu{
+        gap: 10px;
+        font-size: 15px;
+    }
+
+    .nav-right{
+        gap: 15px;
+    }
+
+    .nav-right img{
+        width: 20px;
+    }
+
+    .nav-right button{
+       padding: 7px 20px;
+       font-size: 15px;
+
+    
+    }
+
+}
+
+@media (max-width:700px){
+
+
+    .nav-menu{
+       display: none;
+    }
+
+
+
+}
+
+

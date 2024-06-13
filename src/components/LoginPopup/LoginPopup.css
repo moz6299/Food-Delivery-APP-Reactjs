@@ -1,0 +1,78 @@
+.loginpopup{
+    background-color: #00000090;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    position: fixed;
+    display: grid;
+    top: 0;
+    
+}
+
+.loginpop-form{
+    place-self: center;
+    width: max(23vw,330px);
+    color: #808080;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    font-size: 14px;
+    animation: fadein .5s;
+}
+
+.loginpop-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+
+}
+
+.loginpop-title img{
+    width: 16px;
+    cursor: pointer;
+}
+
+.loginpop-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.loginpop-inputs input{
+    outline: none;
+    border: 1px solid #c9c9c9;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.login-butt{
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    background-color: tomato;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.checkterms{
+    display: flex;
+    align-items: start;
+    gap: 8px;
+    margin-top: -15px;
+
+}
+
+.checkterms input{
+    margin-top: 5px;
+}
+
+.paralog span{
+    color: tomato;
+    font-weight: 500;
+    cursor: pointer;
+}
